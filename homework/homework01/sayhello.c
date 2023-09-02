@@ -1,7 +1,8 @@
- /* Aidan Esposito */
+ /* Aidan Esposito, Juan Ballesteros */
  
  #include <stdio.h>
  #include <stdlib.h>
+
 
    int main( int argc, char * argv[] ) {
       char namePrint[25];
