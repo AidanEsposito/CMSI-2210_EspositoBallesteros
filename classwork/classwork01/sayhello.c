@@ -1,4 +1,4 @@
-  /* Aidan Esposito */
+  /* Aidan Esposito, Juan Ballesteros */
   
   #include <stdio.h>
 
