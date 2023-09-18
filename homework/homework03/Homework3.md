@@ -80,11 +80,11 @@ Aidan Esposito / Juan Ballesteros
 
 19. The modular sum of 16-bit hex values 3511 + 4FFC is:
 
-    - 850D?
+    - 850D
 
 20. The saturated sum of 16-bit hex values 3511 + 4FFC is:
 
-    - FFFF
+    - 850D
     
 21. The 16-bit operation 0x3511 + 0x4FFC has a carry (Y or N):
 
