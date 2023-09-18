@@ -51,8 +51,7 @@ Aidan Esposito / Juan Ballesteros
    
 12. Decimal -11 encoded in 16-bits (signed) is in hex:
 
-    - -B
-
+    - FFF5
 
 13. Decimal -32717 encoded in 16-bits (signed) is in hex:
 
