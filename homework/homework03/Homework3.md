@@ -142,7 +142,7 @@ Aidan Esposito / Juan Ballesteros
     
 12. The negation of 32-bit word 0xFFF329BA is:
 
-    -
+    - CD646
     
 13. 96.03125 as a 32-bit float, in hex is:
 
