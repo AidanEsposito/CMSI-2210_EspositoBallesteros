@@ -172,11 +172,11 @@ Aidan Esposito / Juan Ballesteros
    
 3. The largest nonzero negative IEEE-754 single precision float, in hex is:
 
-   -
+   - FF800000
 
 4. The smallest nonezero positive IEEE-754 single precision float, in hex is:
 
-   -
+   - 00800000
    
 5. -5.125 X 290 as a 32-bit float, in hex is:
 
