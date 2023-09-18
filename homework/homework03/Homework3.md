@@ -150,7 +150,7 @@ Aidan Esposito / Juan Ballesteros
     
 14. -16777216 as a 32-bit float, in hex is:
 
-    -
+    - CB800000
     
 15. Hex 43700000, when interpreted as an IEEE-754 pattern, is in decimal:
 
