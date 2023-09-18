@@ -106,27 +106,27 @@ Aidan Esposito / Juan Ballesteros
    
 3. The 16-bit operation 0x6159 + 0xF702 has a carry (Y or N):
 
-   -
+   - Y
    
 4. The 16-bit operation 0x6159 + 0xF702 has a overflows (Y or N):
 
-   -
+   - N
    
 5. The modular sum of 16-bit hex values EEEE + C00C is:
 
-   -
+   - AEFA
    
 6. The saturated sum of 16-bit hex values EEEE + C00C is:
 
-   -
+   - FFFF
    
 7. The 16-bit operation 9EEE + AB0C has a carry (Y or N):
 
-   -
+   - Y
    
 8. The 16-bit operation 9EEE + AB0C has a overflows (Y or N):
 
-   -
+   - Y
    
 9. The negation of 16-bit word 0xB00F is:
 
@@ -134,11 +134,11 @@ Aidan Esposito / Juan Ballesteros
    
 10. The negation of 16-bit word 0x2232 is:
 
-    -
+    - DBCE
     
 11. The negation of 16-bit word 0x8000 is:
 
-    -
+    - 8000? or -8000
     
 12. The negation of 32-bit word 0xFFF329BA is:
 
