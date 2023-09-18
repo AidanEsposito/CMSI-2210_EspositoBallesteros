@@ -130,7 +130,7 @@ Aidan Esposito / Juan Ballesteros
    
 9. The negation of 16-bit word 0xB00F is:
 
-    -
+    - 4FF1
    
 10. The negation of 16-bit word 0x2232 is:
 
