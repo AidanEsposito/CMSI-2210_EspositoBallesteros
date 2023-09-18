@@ -88,11 +88,11 @@ Aidan Esposito / Juan Ballesteros
     
 21. The 16-bit operation 0x3511 + 0x4FFC has a carry (Y or N):
 
-    - Y
+    - N
 
 22. The 16-bit operation 0x3511 + 0x4FFC has a overflows (Y or N):
 
-    - N
+    - Y
 
 ** B LEVEL PROBLEMS**
 
