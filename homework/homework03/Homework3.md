@@ -98,11 +98,11 @@ Aidan Esposito / Juan Ballesteros
 
 1. The modular sum of 16-bit hex values 6159 + F702 is:
 
-   -
+   - 585B
 
 2. The saturated sum of 16-bit hex values 6159 + F702 is:
 
-   -
+   - FFFF
    
 3. The 16-bit operation 0x6159 + 0xF702 has a carry (Y or N):
 
