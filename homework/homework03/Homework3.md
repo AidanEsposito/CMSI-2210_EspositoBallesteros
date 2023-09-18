@@ -146,7 +146,7 @@ Aidan Esposito / Juan Ballesteros
     
 13. 96.03125 as a 32-bit float, in hex is:
 
-    -
+    - 42C01000
     
 14. -16777216 as a 32-bit float, in hex is:
 
