@@ -138,7 +138,7 @@ Aidan Esposito / Juan Ballesteros
     
 11. The negation of 16-bit word 0x8000 is:
 
-    - 8000? or -8000
+    - 8000
     
 12. The negation of 32-bit word 0xFFF329BA is:
 
