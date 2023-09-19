@@ -154,7 +154,7 @@ Aidan Esposito / Juan Ballesteros
     
 15. Hex 43700000, when interpreted as an IEEE-754 pattern, is in decimal:
 
-    -
+    - 1317462016
 
 16. Hex C0FF0000, when interpreted as an IEEE-754 pattern, is in decimal:
 
