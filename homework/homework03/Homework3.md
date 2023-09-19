@@ -154,11 +154,11 @@ Aidan Esposito / Juan Ballesteros
     
 15. Hex 43700000, when interpreted as an IEEE-754 pattern, is in decimal:
 
-    - 1317462016
+    - 240
 
 16. Hex C0FF0000, when interpreted as an IEEE-754 pattern, is in decimal:
 
-    -
+    - -7.96875
 
 ** A LEVEL PROBLEMS **
 
@@ -180,13 +180,13 @@ Aidan Esposito / Juan Ballesteros
    
 5. -5.125 X 290 as a 32-bit float, in hex is:
 
-   - 
+   - EDA40000
    
 6. 2-138 as a 32-bit float, in hex is:
 
-   -
+   - 00000800
    
 7. 1.5 X 2-143 as a 32-bit float, in hex is:
 
-   - 
+   - 00000060
 
