@@ -72,11 +72,11 @@ Aidan Esposito / Juan Ballesteros
     
 17. If we had 20-bit registers, the smallest signed decimal integer value would be:
 
-    - -1
+    - -524288
 
 18. If we had 20-bit registers, the largest signed decimal integer value would be:
 
-    - -524288
+    - 524287
 
 19. The modular sum of 16-bit hex values 3511 + 4FFC is:
 
