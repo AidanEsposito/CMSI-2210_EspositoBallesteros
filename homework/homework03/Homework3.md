@@ -180,7 +180,7 @@ Aidan Esposito / Juan Ballesteros
    
 5. -5.125 X 290 as a 32-bit float, in hex is:
 
-   - EDA40000
+   - A4A699
    
 6. 2-138 as a 32-bit float, in hex is:
 
