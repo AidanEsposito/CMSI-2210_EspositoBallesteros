@@ -134,7 +134,7 @@ Aidan Esposito / Juan Ballesteros
    
 10. The negation of 16-bit word 0x2232 is:
 
-    - DBCE
+    - DDCE
     
 11. The negation of 16-bit word 0x8000 is:
 
