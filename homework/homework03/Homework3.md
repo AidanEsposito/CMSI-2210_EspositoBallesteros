@@ -164,7 +164,7 @@ Aidan Esposito / Juan Ballesteros
 
 1. The largest finite IEEE-754 single precision float, in hex is:
 
-   - 7F800000 
+   - 3.671F704E29D8385F45CC
    
 2. The smallest finite IEEE-754 single precision float, in hex is:
 
