@@ -176,7 +176,7 @@ Aidan Esposito / Juan Ballesteros
 
 4. The smallest nonezero positive IEEE-754 single precision float, in hex is:
 
-   - 00800001
+   - 00000001
    
 5. -5.125 X 290 as a 32-bit float, in hex is:
 
