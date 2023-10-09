@@ -25,8 +25,8 @@ Aidan Esposito / Juan Ballesteros
 
 
 4.         JMP START
-           Current: 1
-           Start:
+   Current: 1
+   Start:
    Top:    LOAD Current
            WRITE  0x08
            ADD    0x01
