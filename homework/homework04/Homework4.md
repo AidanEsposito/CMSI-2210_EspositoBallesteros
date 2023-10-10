@@ -21,16 +21,21 @@ Aidan Esposito / Juan Ballesteros
    f.     OR 0xFFFFFFF8
 
 
-4.         JMP START
-   Current: 0
-   Start:
-   Top:    LOAD Current
-           WRITE  0x08
-           ADD    0x01
-           STORE Current
-           SUB 0x100
-           JLZ Top
-   End:    JMP End
+4. JMP START
+
+Current: 0
+
+Start:
+    Top:
+        LOAD Current
+        WRITE 0x08
+        ADD 0x01
+        STORE Current
+        SUB 0x100
+        JLZ Top
+
+End:
+    JMP End
 
 5. C0000000
    00000000
@@ -43,40 +48,43 @@ Aidan Esposito / Juan Ballesteros
    C0000007
 
    
-6.             JMP START
-      NUM1 = 0
-      NUM2 = 0
-      RESULT = 0
-      TEMP = 0
-      Start:
-      Top:    LOAD 0x100
-              STORE NUM1
-              LOAD 0x101
-              STORE NUM2
-              LOAD NUM1
-              SUB  NUM2
-              JZ DONE
-              JLZ SWAP
-              LOAD NUM2
-              STORE TEMP
-              LOAD NUM1
-              STORE NUM2
+6. JMP START
+    NUM1 = 0
+    NUM2 = 0
+    RESULT = 0
+    TEMP = 0
 
-      Swap:   LOAD NUM1
-              STORE TEMP
-              LOAD NUM2
-              STORE NUM1
-              LOAD TEMP
-              STORE NUM2
-              LOAD NUM1
-              SUB NUM2
-              STORE NUM1
-              JMP Start
+Start:
+    Top:
+        LOAD 0x100
+        STORE NUM1
+        LOAD 0x101
+        STORE NUM2
+        LOAD NUM1
+        SUB NUM2
+        JZ DONE
+        JLZ SWAP
+        LOAD NUM2
+        STORE TEMP
+        LOAD NUM1
+        STORE NUM2
 
-      Done:   STORE RESULT
-              LOAD RESULT
-              WRITE 0x200  
-   
+Swap:
+    LOAD NUM1
+    STORE TEMP
+    LOAD NUM2
+    STORE NUM1
+    LOAD TEMP
+    STORE NUM2
+    LOAD NUM1
+    SUB NUM2
+    STORE NUM1
+    JMP Start
+
+Done:
+    STORE RESULT
+    LOAD RESULT
+    WRITE 0x200  
 
 7.       STORE temp1
          LOAD 0x30AA
