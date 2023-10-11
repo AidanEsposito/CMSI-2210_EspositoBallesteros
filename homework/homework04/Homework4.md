@@ -67,6 +67,7 @@ Start:
         STORE TEMP
         LOAD NUM1
         STORE NUM2
+        JMP Top
 
 Swap:
     LOAD NUM1
