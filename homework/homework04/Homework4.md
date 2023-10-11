@@ -4,7 +4,7 @@ Aidan Esposito / Juan Ballesteros
    Y :=  (Not A) or (B and (Not C))
 
    X := (A nand A) nand (B nand C)
-   Y := nand(nand(A and A) and nand(C and C))
+   Y := (nand(A nand A) nand(C nand C))
 
 2. Image Added in File 
 
@@ -25,27 +25,26 @@ Aidan Esposito / Juan Ballesteros
 
 Current: 0
 
-Start:
-    Top:
+    Start:
         LOAD Current
         WRITE 0x08
         ADD 0x01
         STORE Current
         SUB 0x100
-        JLZ Top
+        JLZ Start
 
 End:
     JMP End
 
-5. C0000000
+5. C0000002
    00000000
-   00000000
-   00000008
+   00000001
+   30000008
    40000001
-   10000000
+   10000001
    50000100
    E0000002
-   C0000007
+   C0000008
 
    
 6. JMP START
