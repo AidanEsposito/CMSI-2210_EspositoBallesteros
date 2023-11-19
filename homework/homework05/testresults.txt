@@ -1,0 +1,117 @@
+.
+"running tests on dec2bin"
+Please enter a decimal number to be converted to binary
+00000000000110010010101111001100ÿÿÿÿ
+Please enter a decimal number to be converted to binary
+00000000000000000000000000000101ÿÿÿÿ
+Please enter a decimal number to be converted to binary
+00000000000000011110001001000000ÿÿÿÿ
+Please enter a decimal number to be converted to binary
+00000000000000001111111111111111ÿÿÿÿ
+Please enter a decimal number to be converted to binary
+00111010010000000000000000000000ÿÿÿÿ
+Please enter a decimal number to be converted to binary
+01000000000000000001001000110100ÿÿÿÿ
+.
+"running tests on dec2hex"
+Please enter a decimal number to be converted to hexadecimal
+Please enter the range of bits for conversion (32 or 64)
+Did not state if number is to be converted with 32 or 64 bits.
+Please enter a decimal number to be converted to hexadecimal
+Please enter the range of bits for conversion (32 or 64)
+00000000000000000000000000000005
+Please enter a decimal number to be converted to hexadecimal
+Please enter the range of bits for conversion (32 or 64)
+0000000000000000000000000001E240
+Please enter a decimal number to be converted to hexadecimal
+Please enter the range of bits for conversion (32 or 64)
+0000000000000000000000000000FFFF
+Please enter a decimal number to be converted to hexadecimal
+Please enter the range of bits for conversion (32 or 64)
+0000000000000000000000003A400000
+Please enter a decimal number to be converted to hexadecimal
+Please enter the range of bits for conversion (32 or 64)
+00000000000000000000000040001234
+Please enter a decimal number to be converted to hexadecimal
+Please enter the range of bits for conversion (32 or 64)
+0000000000000000000000000000000000000000000000000000000000000005
+Please enter a decimal number to be converted to hexadecimal
+Please enter the range of bits for conversion (32 or 64)
+000000000000000000000000000000000000000000000000000000000001E240
+Please enter a decimal number to be converted to hexadecimal
+Please enter the range of bits for conversion (32 or 64)
+Did not state if number is to be converted with 32 or 64 bits.
+Please enter a decimal number to be converted to hexadecimal
+Please enter the range of bits for conversion (32 or 64)
+000000000000000000000000000000000000000000000000000000003A400000
+Please enter a decimal number to be converted to hexadecimal
+Please enter the range of bits for conversion (32 or 64)
+0000000000000000000000000000000000000000000000000000000040001234
+.
+"running tests on timesTables"
+Arguments must include only program name and number for times table.Here is the Times Table for 2 to 2:
+   |    2
+---+
+ 2 |    4
+
+Here is the Times Table for 2 to 5:
+   |    2    3    4    5
+---+-----+-----+-----+
+ 2 |    4    6    8   10
+ 3 |    6    9   12   15
+ 4 |    8   12   16   20
+ 5 |   10   15   20   25
+
+Here is the Times Table for 2 to 10:
+   |    2    3    4    5    6    7    8    9   10
+---+-----+-----+-----+-----+-----+-----+-----+-----+
+ 2 |    4    6    8   10   12   14   16   18   20
+ 3 |    6    9   12   15   18   21   24   27   30
+ 4 |    8   12   16   20   24   28   32   36   40
+ 5 |   10   15   20   25   30   35   40   45   50
+ 6 |   12   18   24   30   36   42   48   54   60
+ 7 |   14   21   28   35   42   49   56   63   70
+ 8 |   16   24   32   40   48   56   64   72   80
+ 9 |   18   27   36   45   54   63   72   81   90
+10 |   20   30   40   50   60   70   80   90  100
+
+Here is the Times Table for 2 to 12:
+   |    2    3    4    5    6    7    8    9   10   11   12
+---+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+ 2 |    4    6    8   10   12   14   16   18   20   22   24
+ 3 |    6    9   12   15   18   21   24   27   30   33   36
+ 4 |    8   12   16   20   24   28   32   36   40   44   48
+ 5 |   10   15   20   25   30   35   40   45   50   55   60
+ 6 |   12   18   24   30   36   42   48   54   60   66   72
+ 7 |   14   21   28   35   42   49   56   63   70   77   84
+ 8 |   16   24   32   40   48   56   64   72   80   88   96
+ 9 |   18   27   36   45   54   63   72   81   90   99  108
+10 |   20   30   40   50   60   70   80   90  100  110  120
+11 |   22   33   44   55   66   77   88   99  110  121  132
+12 |   24   36   48   60   72   84   96  108  120  132  144
+
+Here is the Times Table for 2 to 13:
+   |    2    3    4    5    6    7    8    9   10   11   12   13
+---+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+ 2 |    4    6    8   10   12   14   16   18   20   22   24   26
+ 3 |    6    9   12   15   18   21   24   27   30   33   36   39
+ 4 |    8   12   16   20   24   28   32   36   40   44   48   52
+ 5 |   10   15   20   25   30   35   40   45   50   55   60   65
+ 6 |   12   18   24   30   36   42   48   54   60   66   72   78
+ 7 |   14   21   28   35   42   49   56   63   70   77   84   91
+ 8 |   16   24   32   40   48   56   64   72   80   88   96  104
+ 9 |   18   27   36   45   54   63   72   81   90   99  108  117
+10 |   20   30   40   50   60   70   80   90  100  110  120  130
+11 |   22   33   44   55   66   77   88   99  110  121  132  143
+12 |   24   36   48   60   72   84   96  108  120  132  144  156
+13 |   26   39   52   65   78   91  104  117  130  143  156  169
+.
+"running test on holdit"
+Try to hold your breath! Press ENTER to start the timer!
+When you need air, press ENTER again to stop the timer
+You held your breath for 0 minutes and 14 seconds!
+.
+"running test on wordcount"
+
+Not Acceptable Argument, only use two arguments, one for the program and one for the file you want to count the words of.
+The amount of words in this file is: 394

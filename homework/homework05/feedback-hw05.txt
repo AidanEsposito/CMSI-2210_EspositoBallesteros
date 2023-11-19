@@ -35,7 +35,12 @@ TOTAL EARNED POINTS:
 ========================================================
 SPECIFIC COMMENTS/FEEDBACK:
 
+On dec2hex, you are putting out too many digits.  There should only be eight
+   digits for 32-bit values, and 16 digits for 64-bit values.  You are also
+   not taking the 32 or 64 from the command line as specified, and there is
+   no default to 32-bits as specified.
 
+Otherwise, everything is good!
 
 ========================================================
 SEMESTER SCORE SO FAR:
@@ -43,9 +48,9 @@ SEMESTER SCORE SO FAR:
    homework01 ~ 100.00% of  5 points =  5.00 points
    homework02 ~ 100.00% of  5 points =  5.00 points
    homework03 ~ 100.00% of  5 points =  5.00 points
-   homework04 ~ 100.00% of  5 points =  5.00 points
-   homework05 ~ 100.00% of 10 points = 10.00 points
-                                total: 30.00 out of 30.00 = 100.00%
+   homework04 ~  96.67% of  5 points =  4.83 points
+   homework05 ~  98.00% of 10 points =  9.80 points
+                                total: 29.63 out of 30.00 = 98.78%
                                 which is an A-plus
 
-Your code looks VERY nice, you two obviously care about the craft....
+Excellent work!  Keep it up for the last one....
