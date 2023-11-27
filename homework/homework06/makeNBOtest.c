@@ -1,6 +1,6 @@
 //Aidan Esposito / Juan Ballesteros 
 
-// main.c
+// main file for makeNBO.c
 
 #include <stdio.h>
 #include <stdint.h>
