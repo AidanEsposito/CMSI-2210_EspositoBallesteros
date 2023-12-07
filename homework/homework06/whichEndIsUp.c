@@ -1,5 +1,8 @@
 //Aidan Esposito / Juan Ballesteros
 
+// To Compile: gcc whichEndIsUp.c -o whichEndIsUp.exe
+// To Run: whichEndIsUp.exe
+
 #include <stdio.h>
 
 int main(){
