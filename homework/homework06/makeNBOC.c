@@ -1,5 +1,8 @@
 //Aidan Esposito / Juan Ballesteros
 
+// To Compile: gcc makeNBOC.c -o  makeNBOC.exe
+// To Run: makeNBOC.exe
+
 #include <stdio.h>
 #include <stdint.h>
 

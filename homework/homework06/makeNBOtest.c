@@ -1,5 +1,10 @@
 //Aidan Esposito / Juan Ballesteros 
 
+//Aidan Esposito / Juan Ballesteros 
+
+// To Compile: gcc makeNBOCtest.c makeNBOC.c -o  makeNBOCtest.exe
+// To Run: makeNBOCtest.exe
+
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
