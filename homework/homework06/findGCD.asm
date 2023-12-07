@@ -1,5 +1,9 @@
 ; Aidan Esposito / Juan Ballesteros
 
+; To Assemble: nasm -fwin32 findGCD.asm 
+; To Compile: gcc -m32 findGCD.obj -o findGCD.exe 
+; To Run: findGCD.exe
+
 section .text
     global _main
     extern _printf, _scanf, _exit
@@ -13,7 +17,7 @@ _main:
     push ecx
     call _scanf
     add esp, 12
-
+bob:
     ;add values to registers
     mov eax, [ecx]
     mov ebx, [edx]
@@ -56,3 +60,6 @@ gcd_done:
 
 section .data
      format db "Numbers: %d %d, GCD: %d", 10, 0; print string for GCD
+
+     ;num 1 and num 2 .bss 
+     ;3 format strings, 1 for gcd, 1 for Numbers, 1 for prompt
