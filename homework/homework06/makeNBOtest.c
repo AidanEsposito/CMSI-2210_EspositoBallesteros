@@ -2,7 +2,7 @@
 
 //Aidan Esposito / Juan Ballesteros 
 
-// To Compile: gcc makeNBOCtest.c makeNBOC.c -o  makeNBOCtest.exe
+// To Compile: gcc makeNBOCtest.c makeNBOC.obj -o  makeNBOCtest.exe
 // To Run: makeNBOCtest.exe
 
 #include <stdio.h>
