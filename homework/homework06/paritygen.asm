@@ -1,5 +1,9 @@
 ; Aidan Esposito / Juan Ballesteros
 
+; To Assemble: nasm -fwin32 paritygen.asm
+; To Compile: gcc -m32 paritygen.obj -o paritygen.exe
+; To Run: paritygen.exe
+
 section .text
     global _main
     extern _printf ; printf function from C to show parity bit
