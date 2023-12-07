@@ -1,5 +1,8 @@
 ; Aidan Esposito / Juan Ballesteros
 
+; To Assemble: nasm -fwin32 findGCDfunc.asm 
+; To Compile: gcc -m32 gcdFinder.c findGCDfunc.obj -o gcdFinder.exe
+
     global findGCD
     section .text
 
