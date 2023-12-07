@@ -1,7 +1,6 @@
 //Aidan Esposito / Juan Ballesteros
 
-// To Assemble: nasm -fwin32 findGCD.asm 
-// To Compile: gcc -m32 findGCD.obj -o findGCD.exe 
+// To Compile: gcc gcdFinder.c -o gcdFinder.exe
 // To Run: gcdFinder.exe
 
 #include <stdio.h>
