@@ -1,5 +1,9 @@
 ;Aidan Esposito / Juan Ballesteros
 
+; To Assemble: nasm -fwin32 makeNBON.asm 
+; To Compile: gcc -m32 makeNBON.obj -o makeNBON.exe 
+; To Run: makeNBON.exe
+
     global _main
     extern _printf
     extern _makeNBO
