@@ -1,0 +1,83 @@
+
+
+Evaluation Criteria ~ homework06
+CMSI 2210 Section all Fall 2023
+=================================
+
+FINDGCD.NASM
+   nasm file assembles  [5 pts.]
+   nasm runs            [5 pts.]
+   output correct       [1 pts.]
+GCDFINDER
+   nasm file assembles  [5 pts.]
+   gcdFinder.c compiles [5 pts.]
+   link both files OK   [0 pts.]
+   nasm returns value   [5 pts.]
+   output correct       [2 pts.]
+PARITYGEN
+   nasm file assembles  [5 pts.]
+   nasm runs            [5 pts.]
+   output correct       [3 pts.]
+WHICHENDISUP
+   compiles no errors   [5 pts.]
+   runs no errors       [5 pts.]
+MAKENBOC.C
+   compiles no errors   [5 pts.]
+   uses previous func.  [5 pts.]
+   tester compiles      [5 pts.]
+   tester runs          [5 pts.]
+   output correct       [1 pts.]
+MAKENBO.NASM
+   nasm file assembles  [5 pts.]
+   link all files OK    [0 pts.]
+   calls "C" function   [5 pts.]
+   output correct       [1 pts.]
+
+Total possible points 100
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 83.00/100.00 which is 83% which is a B
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+problem 1 findGCD.nasm: assembles, links, and runs.  However, I get no output
+   either for a prompt of what to do, or the GCD for the two numbers.  There
+   is no code to put out the prompt, and you are pushing the values for the
+   _scanf call out of order ~ the format should be pushed last.  Still, not
+   bad.
+
+problem 2 findGCDfunc.nasm & gcdFinder.c: assembles but won't link.  I see
+   that you didn't provide the underscore in the assembly code for the name
+   of the function.  I fixed that for you.  However, it still doesn't link,
+   with the error 'undefined reference to findGCD'.
+
+problem 3 paritygen.nasm: perfect
+
+problem 4 whichEndIsUp.c: perfect
+
+problem 5 makeNBOC.c & makeNBOCtest.c: compiles, links, and runs [although
+   not with the commands provided!] but doesn't actually swap the byte
+   order.
+
+problem 6 makeNBOC.c & makeNBON.nasm: compiles and assembles, but won't link
+   so I can't run it.
+
+========================================================
+SEMESTER HOMEWORK TOTALS:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~ 100.00% of  5 points =  5.00 points
+   homework03 ~ 100.00% of  5 points =  5.00 points
+   homework04 ~  96.67% of  5 points =  4.83 points
+   homework05 ~  98.00% of 10 points =  9.80 points
+   homework06 ~  83.00% of 15 points = 12.45 points
+                       semester total: 42.08 out of 45.00 = 93.51%
+                             which is a solid A
+
+Great work!  You've worked hard on this material and it shows.  Keep up
+the good work and I look forward to seeing you in future classes!  It's
+been a pleasure having you in class.
+
